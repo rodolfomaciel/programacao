@@ -8,3 +8,4 @@ Dentre os mais populares estão o Bootstrap, Foundation, Yaml4, Frameless e assi
 
 O Bootstrap é o mais famoso framework e já vem com arquivos minificados para agilizar o trafego de dados do seu site.
 
+O mais indicado é usar o Bootstrap e desenvolver outras soluções complementares.
