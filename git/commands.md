@@ -10,3 +10,11 @@
 - git push -u origin master - esse comando envia todos arquivos do repositorio local para o repositorio no Github
 - git diff HEAD - exibe as mudanças realizadas nos arquivos
 - git diff --staged - mostra as diferencas rastreadas
+- git reset octofamily/octodog.txt - retirar um arquivo do rastreamento
+- git checkout -- octocat.txt - retorna um arquivo especifico a situação anterior
+- git branch clean_up - cria uma ramificação do projeto para separar os rastreamentos no repositorio - clean_up é o nome da ramificacao
+- git checkout clean_up - muda de ramificacao
+- git rm '*.txt' - remove os arquivo do disco e também o rastreamento
+- git checkout master - muda a ramificacao para o branch principal
+- git merge clean_up - mescla o branch indicado com o atual
+- git branch -d clean_up - deleta um ramo
