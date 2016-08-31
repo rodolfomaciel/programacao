@@ -8,4 +8,5 @@
 - git log - mostra tudo o que foi modificado no repositorio em ordem de tempo
 - git remote add origin https://gthub.com/try-git/try_git.git - adiciona um repositorio no Github vazio
 - git push -u origin master - esse comando envia todos arquivos do repositorio local para o repositorio no Github
--  
+- git diff HEAD - exibe as mudanças realizadas nos arquivos
+- git diff --staged - mostra as diferencas rastreadas
