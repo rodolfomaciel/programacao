@@ -1,17 +1,26 @@
 <!doctype html>
 <html>
-  <meta charset="utf-8">
   <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/my_styles.css">
+    <style type="text/css">
+      /* Comentários*/
+    body /*seleltor*/ {font-family: "Droid Serif", sans-serif; /* declaração, atributo e valor*/}
+    </style>
     <title>Resumo de Aprendizado</title>
   </head>
   <body>
+  <article>
+  <header>
     <h1>Resumo de HTML</h1>
+    <h2>Um resumo das tags mais utilizadas no HTML 5 e outras novidades</h2>
+    </header>
     <p>Caracteres especiais devem usar a <a href="https://dev.w3.org/html5/html-author/charref">tabela de simbolos da W3C</a> que contem as diversas entidades e simbolos. Veja esse: &quest;</p>
     <h2>Exemplo de novas tags</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     <blockquote>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</blockquote>
-    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p>Excepteur sint occaecat cupidatat <cite>non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</cite></p>
     <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui <q>blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas</q> molestias excepturi sint occaecati cupiditate non provident,</p>
     <ul>
       <li>similique sunt in culpa qui officia deserunt mollitia animi,</li>
@@ -20,9 +29,16 @@
     </ul>
     <h3>cumque nihil impedit quo minus id quod maxime placeat facere possimus,</h3>
     <p>omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe</p>
+
+    <figure>
+      <a href="html5.jpg" download="html5css3.jpg">
+      <img src="html5.jpg" alt="HTML5 e CSS3" />
+      </a>
+      <figcaption>Um exemplo de imagem</figcaption>
+    </figure>
     <hr>
     <h4>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4>
-    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <p>Ut enim ad minim veniam, <a href="#" media="screen">quis nostrud exercitation ullamco laboris nisi ut aliquip</a> ex ea commodo consequat.</p>
     <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     
@@ -31,5 +47,21 @@
       <li>Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias</li>
       <li>consequatur aut perferendis doloribus asperiores repellat.</li>
     </ol>
+    <footer>
+      <details>
+        <p>
+        <summary>O autor desta página é Rodolfo Maciel...</summary>
+        ele está fazendo exercícios para fixar o aprendizado em HTML5.
+        </p>
+      </details>
+      <details>
+        <summary>Informações de contatos</summary>
+        <ul>
+          <li>Email: rodolfo@rodolfomaciel.com</li>
+          <li>Github: rodolfomaciel</li>
+        </ul>
+      </details>
+    </footer>
+    </article>
   </body>
 </html>

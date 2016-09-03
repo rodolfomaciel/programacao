@@ -7,3 +7,7 @@ No linux os arquivos nao necessitam de extensao.
 Os comandos digitados no shell podem ser acessados pelo history ou simples teclando para cima.
 
 CRTL+R ativa uma função de busca por comandos. Ao começar a digitar a função já indica um possivel resultado
+
+A navegação pode ser feita facilmente pelo comando cd
+
+
