@@ -1,22 +1,6 @@
-#novas tags do html5
-
-* header
-* footer
-* nav
-* section
-* article
-* aside
-* summary
-* details
-* figure
-* figcaption
-* mark
-* code
-* abbr
-* div
-* span
-* cite
-* unidades: px, em, rem, %, vh, vw
+##novas tags do html5
+* W3C - https://www.w3.org/TR/html-markup/elements.html
+* Mozzila - https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 
 ##Resumo Curso Intro HTML5
 
