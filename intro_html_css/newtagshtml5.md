@@ -20,7 +20,7 @@
 
 ##Resumo Curso Intro HTML5
 
-*HTML, CSS, JS
+###HTML, CSS, JS
   * Elements
   * Tags
   * Attributes
@@ -35,4 +35,3 @@
   * Tables
   * Multmedia
   * Embedding
-  * 
