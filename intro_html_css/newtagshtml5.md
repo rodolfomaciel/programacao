@@ -22,18 +22,17 @@
 
 ##Udacity
 ###HTML, CSS, and Boxes
-24/24
-The First Step
-Exploring the Web
-Page Structure
-Summary of HTML
-Visual Styling
-HTML-CSS-DOM
-Boxes Everywhere
-Boxes, Grids and Rules
-Boxifying Design
-Interview with Jacques
-Boxes To HTML
+* The First Step
+* Exploring the Web
+* Page Structure
+* Summary of HTML
+* Visual Styling
+* HTML-CSS-DOM
+* Boxes Everywhere
+* Boxes, Grids and Rules
+* Boxifying Design
+* Interview with Jacques
+* Boxes To HTML
 Creating the Files
 Adding Style
 Understanding CSS
