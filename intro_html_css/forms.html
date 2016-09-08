@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>Forms</title>
+	<style type="text/css">
+		ul li {list-style: none; padding: 5px 0;}
+		input:invalid {
+      		background-color:#f44336;
+  		}
+	</style>
+</head>
+<body>
+	<h3>Formulário HTML5</h3>
+	<form method="post" action="" oninput="result.value=parseInt(a.value)+parseInt(b.value)">
+		<ul>
+			<li><label for="name">Name:</label> <input type="name" id="name" autocomplete="on" required
+           autofocus></li>
+			<li><label for="pass">Password:</label> <input type="password" id="pass"></li>
+			<li>Homem<input type="radio" name="sex" value="male"></li>
+			<li>Mulher: <input type="radio" name="sex" value="female"></li>
+			<li><input type="checkbox">Você quer receber nossas atualizações</li>
+			<li><label for="telefone">Telefone:</label> <input type="tel" id="telefone" placeholder="(55) 5555-5555"  pattern="^(?\d{2})?[-\s]\d{4}[-\s]\d{4}.*?\)></li>
+			<li><label for="num">Idade:</label> <input type="number" id="num" value="25" min="0" step="5" max="500"></li>
+			<li><label for="nasc">Nascimento:</label> <input type="date" id="nasc"></li>
+			<li><label for="email"> Email:</label> <input type="email" id="email" title="Please, provide an e-mail" x-moz-errormessage="This is not a valid e-mail"></li>
+			<li><label for="url">Seu site:</label><input type="url" id="url"></li>
+			<li><label for="sr">Buscar:</label><input type="search" id="sr"></li>
+			<li><textarea placeholder="Digite sua mensagem aqui"></textarea></li>
+			<li><label for="card">Credit Card</label>
+				<select id="card" name="usercard">
+			      <option value="visa">Visa</option>
+			      <option value="mc">Mastercard</option>
+			      <option value="amex">American Express</option>
+			    </select>
+			</li>
+			<li><label for="browsers">Qual ser browser favorito?</label>
+				<input list="browsers" />
+				<datalist id="browsers">
+				  <option value="Chrome">
+				  <option value="Firefox">
+				  <option value="Internet Explorer">
+				  <option value="Opera">
+				  <option value="Safari">
+				</datalist>
+			</li>
+			<li><label for="color">Sua cor:</label><input type="color" id="color" name=""></li>
+			<li>
+				0<input type="range" name="b" value="50" />100 +<input type="number" name="a" value="10" /> =
+<output name="result"></output>
+			</li>
+			<li><label for="slide">Range</label> 0<input id="slide" type="range" min="0" max="100" step="5" value="5">100
+</li>
+			<li><progress value="70" max="100">70 %</progress</li>
+			<li><button type="submit">Enviar Informações</button></li>
+			<li><button type="button">Cancelar Envio de Informações</button></li>
+
+		</ul>
+	</form>
+</body>
+</html>
