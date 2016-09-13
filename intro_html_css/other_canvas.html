@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>	
+</head>
+<body>
+	<canvas width="500" height="500	" id="c"></canvas>
+	<script type="text/javascript">
+		var c = document.querySelector("#c");
+		var ctx = c.getContext("2d");
+		var image = new Image();
+		image.onload = function() {
+			console.log("load image");
+			ctx.drawImage(image, 0, 0, c.width, c.height);
+		}
+		image.src = "https://www.w3.org/html/logo/downloads/HTML5_1Color_Black.svg";
+	</script>
+</body>
+</html>

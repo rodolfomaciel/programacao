@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>	
+</head>
+<body>
+	<canvas width="500" height="500	" id="c"></canvas>
+	<script type="text/javascript">
+		var c = document.querySelector("#c");
+		var ctx = c.getContext('2d');
+
+		ctx.save();
+		ctx.fillStyle = 'palegreen';
+		ctx.translate(0,100);
+		ctx.fillRect(50,50,100,100);
+		ctx.restore();
+
+
+		ctx.rotate(Math.PI/4);
+		ctx.translate(250,-50);
+		ctx.fillStyle = 'lightcoral';
+		ctx.fillRect(0,0, 100,100);
+	</script>
+</body>
+</html>
+
+<!-- 
+The current transformation matrix (rotation, scaling, translation)
+strokeStyle
+fillStyle
+font
+globalAlpha
+lineWidth
+lineCap
+lineJoin
+miterLimit
+shadowOffsetX
+shadowOffsetY
+shadowBlur
+shadowColor
+globalCompositeOperation
+textAlign
+textBaseline
+The current clipping region
+
+Cores
+https://en.wikipedia.org/wiki/Web_colors
+
+-->
