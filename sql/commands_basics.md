@@ -18,18 +18,15 @@ select ordernames.name, count(*) as num
   order by num desc
 
 
-select food, count(animals.name) as num
-       from diet join animals 
-       on diet.species = animals.species
-       group by food
-       having num = 1
 
-
- select food, count(animals.name) as num
-       from diet, animals 
-       where diet.species = animals.species
-       group by food
-       having num = 1
+       
+SELECT colunas, count(asterisco), min(), max()
+FROM tabelas
+WHERE condições, AND, OR, NOT
+GROUP BY agrupar
+ORDER BY ordenar, DESC decrescente
+LIMIT limitar
+OFFSET a partir de
 
 ##Como usar insert into
 insert into table ( column1, column2, ... ) values ( val1, val2, ... );
@@ -56,6 +53,19 @@ create table taxonomy (
 create table ordernames (
        t_order text,
        name text);
+       
+       
+##Como usar join
+
+select food, count(animals.name) as num
+       from diet join animals 
+       on diet.species = animals.species
+       group by food
+       having num = 1
 
 
-
+ select food, count(animals.name) as num
+       from diet, animals 
+       where diet.species = animals.species
+       group by food
+       having num = 1
