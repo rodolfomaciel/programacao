@@ -1,3 +1,4 @@
+Operações Básicas Emacs
 -Novo arquivo
 -Abrir arquivo
 -Salvar arquivo
