@@ -26,7 +26,7 @@ Obtendo ajuda
 - $ git <verb> --help
 - $ man git-<verb>
 
-##Git Essecial
+##Git Essencial
 
 Iniciando repositórios git
 - Local - $ git init
@@ -38,8 +38,19 @@ Adicionando arquivos para serem monitorados
 - $ git add README
 - $ git commit -m 'initial project version'
 
-Verificando alterações nos arquivos
-
 ![Ciclo de trabalho no git](https://git-scm.com/figures/18333fig0201-tn.png "Ciclo de trabalho no git")
+
+Monitorando arquivos
+- Verificando status dos arquivos - $ git status
+- Ignorando arquivos automaticamente - crie um arquivo .gitignore e adicione referencias aos arquivos que deseja ignorar
+ - Exemplos: *.[oa], *~
+- Verificando arquivos modificados e não selecionados - $ git diff
+- Verificando arquivos modificados e selecionados - $ git diff --cached
+- Enviando arquivos para o repositório - $ git commit -m "Story 182: Fix benchmarks for speed"
+- Selecionando e enviando os arquivos ao repositório - $ git commit -a -m 'added new benchmarks'
+- Tirando arquivos da seleção - $ git reset HEAD <file>...
+- Removendo arquivos da seleção e do diretório - $ git rm grit.gemspec
+
+
 
 
