@@ -70,6 +70,14 @@ Alterando commits
 - Tirando arquivos da seleção - $ git reset HEAD nome_arquivo
 - Reverter alterações para o último commit - $ git checkout -- nome_arquivo
 
+Repositórios remotos
+- Listando os repositórios remotos - $ git remote -v
+- Adicionando remotos - $ git remote add pb git://github.com/paulboone/ticgit.git
+- Obtendo arquivos atualizados -git fetch git://github.com/paulboone/ticgit.git
+- Obtem arquivos atualizados e mescla com repositorio local  - $ git push origin master
+- Inspeciona e mostra informações sobre o remoto - $ git remote show origin
+- Renomeando remotos - $ git remote rename pb paul
+
 
 
 
