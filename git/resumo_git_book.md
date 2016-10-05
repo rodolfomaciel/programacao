@@ -7,6 +7,8 @@ Tres estados de operação
 - área de seleção - quando você usa git add e seleciona os arquivos para commit
 - repositorio git - quando você usa git commit e adiciona ao repositório
 
+![Tres estados de operação](https://git-scm.com/figures/18333fig0106-tn.png "Tres estados de trabalho no repositório")
+
 ##Instalação e Configuração
 Instalaçao
 - Fedora - yum install git-core
@@ -36,5 +38,8 @@ Adicionando arquivos para serem monitorados
 - $ git add README
 - $ git commit -m 'initial project version'
 
+Verificando alterações nos arquivos
+
+![Ciclo de trabalho no git](https://git-scm.com/figures/18333fig0201-tn.png "Ciclo de trabalho no git")
 
 
