@@ -90,5 +90,12 @@ Tagging
 - Compartilhando tags no remoto
  - Compartilhando tag especifica - $ git push origin v1.5
  - Compartilhando todas as tag - $ git push origin --tags
+ 
+ Atalhos no git
+ Você pode criar atalhos no git sem precisar usar o comando completo
+- Criando atalho para checkout - $ git config --global alias.co checkout
+- Criando atalho para branch - $ git config --global alias.br branch
+- Criando atalho para commit - $ git config --global alias.ci commit
+- Criando atalho para status -  $ git config --global alias.st status
 
 
