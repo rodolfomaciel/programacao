@@ -18,5 +18,9 @@ Algumas configurações básicas
 - Editor - $ git config --global core.editor emacs
 - Ferramenta diff - $ git config --global merge.tool vimdiff
 - Listando configuração - $ git config --list
--
+
+Obtendo ajuda
+- $ git help <verb>
+- $ git <verb> --help
+- $ man git-<verb>
 
