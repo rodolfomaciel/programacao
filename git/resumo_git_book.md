@@ -24,3 +24,17 @@ Obtendo ajuda
 - $ git <verb> --help
 - $ man git-<verb>
 
+##Git Essecial
+
+Iniciando repositórios git
+- Local - $ git init
+- Remoto - $ git clone git://github.com/schacon/grit.git
+- Nomeando repositório - $ git clone git://github.com/schacon/grit.git mygrit
+
+Adicionando arquivos para serem monitorados
+- $ git add *.c
+- $ git add README
+- $ git commit -m 'initial project version'
+
+
+
