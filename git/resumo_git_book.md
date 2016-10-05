@@ -48,7 +48,6 @@ Monitorando arquivos
 - Verificando arquivos modificados e selecionados - $ git diff --cached
 - Enviando arquivos para o repositório - $ git commit -m "Story 182: Fix benchmarks for speed"
 - Selecionando e enviando os arquivos ao repositório - $ git commit -a -m 'added new benchmarks'
-- Tirando arquivos da seleção - $ git reset HEAD <file>...
 - Removendo arquivos da seleção e do diretório - $ git rm grit.gemspec
  - Removendo somente da seleção - $ git rm --cached readme.txt
 - Renomeando arquivos na área de seleção - $ git mv arquivo_origem arquivo_destino
@@ -65,6 +64,11 @@ Histórico de Commits
   - --until, --before 	Limita aos commits feitos antes da data especificada.
   - --author 	Somente mostra commits que o autor casa com a string especificada.
   - --committer 	Somente mostra os commits em que a entrada do commiter bate com a string especificada.
+  
+Alterando commits
+- Modificando seu ultimo commit - $ git commit --amend
+- Tirando arquivos da seleção - $ git reset HEAD nome_arquivo
+- Reverter alterações para o último commit - $ git checkout -- nome_arquivo
 
 
 
