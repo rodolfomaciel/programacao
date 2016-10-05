@@ -3,9 +3,9 @@
 
 ##Primeiros passos
 Tres estados de operação
-- diretorio de trabalho
-- área de seleção
-- repositorio git
+- diretorio de trabalho - onde você realiza modificações nos arquivos
+- área de seleção - quando você usa git add e seleciona os arquivos para commit
+- repositorio git - quando você usa git commit e adiciona ao repositório
 
 ##Instalação e Configuração
 Instalaçao
