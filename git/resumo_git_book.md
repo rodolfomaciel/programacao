@@ -5,7 +5,7 @@
 Tres estados de operação
 - área de trabalho - onde você realiza modificações nos arquivos
 - área de seleção - quando você usa git add e seleciona os arquivos para commit
-- área do repositorio git - quando você usa git commit e adiciona ao repositório
+- área do repositorio - quando você usa git commit e adiciona ao repositório
 
 ![Tres estados de operação](https://git-scm.com/figures/18333fig0106-tn.png "Tres estados de trabalho no repositório")
 
@@ -81,9 +81,10 @@ Repositórios remotos
 Tagging
 - Listando tags - $ git tag
 - Especificando tags - $ git tag -l 'v1.4.2.*'
-- CRiando tag anotada - $ git tag -a v1.4 -m 'my version 1.4'
+- Criando tag anotada - $ git tag -a v1.4 -m 'my version 1.4'
 - Exibindo tag junto com commit - $ git show v1.4
 - Criando tag assinada - $ git tag -s v1.5 -m 'my signed 1.5 tag'
+- Criando tag leve - $ git tag v1.4-lw
 
 
 
