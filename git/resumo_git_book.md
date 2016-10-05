@@ -3,9 +3,9 @@
 
 ##Primeiros passos
 Tres estados de operação
-- diretorio de trabalho - onde você realiza modificações nos arquivos
+- área de trabalho - onde você realiza modificações nos arquivos
 - área de seleção - quando você usa git add e seleciona os arquivos para commit
-- repositorio git - quando você usa git commit e adiciona ao repositório
+- área do repositorio git - quando você usa git commit e adiciona ao repositório
 
 ![Tres estados de operação](https://git-scm.com/figures/18333fig0106-tn.png "Tres estados de trabalho no repositório")
 
@@ -50,6 +50,8 @@ Monitorando arquivos
 - Selecionando e enviando os arquivos ao repositório - $ git commit -a -m 'added new benchmarks'
 - Tirando arquivos da seleção - $ git reset HEAD <file>...
 - Removendo arquivos da seleção e do diretório - $ git rm grit.gemspec
+ - Removendo somente da seleção - $ git rm --cached readme.txt
+- Renomeando arquivos na área de seleção - $ git mv arquivo_origem arquivo_destino
 
 
 
