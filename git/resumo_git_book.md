@@ -78,6 +78,13 @@ Repositórios remotos
 - Inspeciona e mostra informações sobre o remoto - $ git remote show origin
 - Renomeando remotos - $ git remote rename pb paul
 
+Tagging
+- Listando tags - $ git tag
+- Especificando tags - $ git tag -l 'v1.4.2.*'
+- CRiando tag anotada - $ git tag -a v1.4 -m 'my version 1.4'
+- Exibindo tag junto com commit - $ git show v1.4
+- Criando tag assinada - $ git tag -s v1.5 -m 'my signed 1.5 tag'
+
 
 
 
