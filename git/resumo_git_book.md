@@ -53,6 +53,19 @@ Monitorando arquivos
  - Removendo somente da seleção - $ git rm --cached readme.txt
 - Renomeando arquivos na área de seleção - $ git mv arquivo_origem arquivo_destino
 
+Histórico de Commits
+- Visualizando histórico - $ git log
+- Visualizando as modificações e limitando a quantidade - $ git log -p -2
+- Incluindo estatisticas - $ git log --stat
+- Visualizando saidas em formatos diferentes - $ git log --pretty=oneline
+- Limitando o período de visualização - $ git log --since=2.weeks
+ - Outras opções:
+  - -(n) 	Mostra somente os últimos n commits.
+  - --since, --after 	Limita aos commits feitos depois da data especificada.
+  - --until, --before 	Limita aos commits feitos antes da data especificada.
+  - --author 	Somente mostra commits que o autor casa com a string especificada.
+  - --committer 	Somente mostra os commits em que a entrada do commiter bate com a string especificada.
+
 
 
 
