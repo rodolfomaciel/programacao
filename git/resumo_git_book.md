@@ -85,7 +85,10 @@ Tagging
 - Exibindo tag junto com commit - $ git show v1.4
 - Criando tag assinada - $ git tag -s v1.5 -m 'my signed 1.5 tag'
 - Criando tag leve - $ git tag v1.4-lw
-
-
+- Verificando uma tag - $ git tag -v v1.4.2.1
+- Criando tag num commit anterior - $ git tag -a v1.2 9fceb02
+- Compartilhando tags no remoto
+ - Compartilhando tag especifica - $ git push origin v1.5
+ - Compartilhando todas as tag - $ git push origin --tags
 
 
