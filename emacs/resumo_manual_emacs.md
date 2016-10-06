@@ -2,7 +2,7 @@
 
 Operações Básicas Emacs
 
-- Novo arquivo
+- Novo arquivo - C-x C-f (nome_do_arquivo)
 - Abrir arquivo - C-x C-f
 - Salvar arquivo - C-x C-fs
 - Salvar como - C-x C-w
@@ -23,10 +23,10 @@ Operações Básicas Emacs
 - Colar
 - Limpar
 
-- Selecionar palavra
-- Selecionar linha
-- Selecionar paragrafo
-- Selecionar tudo
+- Selecionar palavra - 
+- Selecionar linha - 
+- Selecionar paragrafo -
+- Selecionar tudo - 
 
 - Buscar
 - Substituir
