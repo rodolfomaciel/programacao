@@ -7,17 +7,20 @@ Operações Básicas Emacs
 - Salvar arquivo - C-x C-fs
 - Salvar como - C-x C-w
 - Salvar tudo - C-x s
-- Fechar arquivo - C-x C-c
+- Fechar arquivo - 
+- Sair do Emacs - C-x C-c
 
 - Nova janela
 - Fechar janela
+- Selecionar janela - C-x b, C-x LEFT, C-x RIGHT
 - Novo frame
 - Deletar frame
 - Imprimir buffer
 - Imprimir regiao
 
+
 - Desfazer - C-/
-- Refazer
+- Refazer - 
 - Copiar - M-w
 - Recortar - C-w
 - Colar - C-y
