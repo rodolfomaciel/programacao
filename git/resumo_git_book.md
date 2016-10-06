@@ -129,4 +129,5 @@ Branchs remotos
 ## Git Rebase
 
 Fazendo rebase
-- 
+- Mude para o branch que deseja fazer rebase - $ git checkout experiment
+- Indique qual branch deseja usar como base - $ git rebase master
