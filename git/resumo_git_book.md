@@ -108,3 +108,15 @@ Operações básicas com ramificações
 
 - Para fundir branchs faça - $ git branch iss53 e depois $ git checkout iss53
 - Deletando branch - $ git branch -d iss53
+- Listando branchs ativos - $ git branch , opções -v --merged --no-merged
+- Deletando branch a força - git branch -D testing
+
+Fluxo de trabalho com branchs
+- Utilização de tres branchs
+ - Master - para codigo estável
+ - Develop - para código em desenvolvimento
+ - Topic - para teste de alguma funcionalidade
+ 
+Branchs remotos
+
+
