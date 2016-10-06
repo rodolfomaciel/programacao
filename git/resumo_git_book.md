@@ -99,4 +99,12 @@ Você pode criar atalhos no git sem precisar usar o comando completo:
 - Criando atalho para commit - $ git config --global alias.ci commit
 - Criando atalho para status -  $ git config --global alias.st status
 
+##Ramificação no Git
 
+Operações básicas com ramificações
+- Criando um novo branch chamado testing - $ git branch testing
+- Mudando para outro branch de trabalho - $ git checkout testing
+- Criando e mudando para um novo branch - $ git checkout -b iss53
+
+- Para fundir branchs faça - $ git branch iss53 e depois $ git checkout iss53
+- Deletando branch - $ git branch -d iss53
