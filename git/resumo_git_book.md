@@ -126,3 +126,7 @@ Branchs remotos
 - Fazendo sincronização e fusão com remoto - $ git pull
 - Deletando um branch no servidor - $ git push origin --delete serverfix
 
+## Git Rebase
+
+Fazendo rebase
+- 
