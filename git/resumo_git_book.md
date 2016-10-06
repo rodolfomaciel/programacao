@@ -7,12 +7,12 @@ Tres estados de operação
 - área de seleção - quando você usa git add e seleciona os arquivos para commit
 - área do repositorio - quando você usa git commit e adiciona ao repositório
 
-![Tres estados de operação](https://git-scm.com/figures/18333fig0106-tn.png "Tres estados de trabalho no repositório")
+![Tres estados de operação](https://git-scm.com/book/en/v2/book/01-introduction/images/areas.png "Tres estados de trabalho no repositório")
 
 ##Instalação e Configuração
 Instalaçao
-- Fedora - yum install git-core
-- Ubuntu - apt-get install git
+- Fedora - $ sudo yum install git-all
+- Ubuntu - $ sudo apt-get install git-all
 
 Algumas configurações básicas
 - Nome - $ git config --global user.name "John Doe"
@@ -38,10 +38,10 @@ Adicionando arquivos para serem monitorados
 - $ git add README
 - $ git commit -m 'initial project version'
 
-![Ciclo de trabalho no git](https://git-scm.com/figures/18333fig0201-tn.png "Ciclo de trabalho no git")
+![Ciclo de trabalho no git](https://git-scm.com/book/en/v2/book/02-git-basics/images/lifecycle.png "Ciclo de trabalho no git")
 
 Monitorando arquivos
-- Verificando status dos arquivos - $ git status
+- Verificando status dos arquivos - $ git status, $ git status -s 
 - Ignorando arquivos automaticamente - crie um arquivo .gitignore e adicione referencias aos arquivos que deseja ignorar
  - Exemplos: *.[oa], *~
 - Verificando arquivos modificados e não selecionados - $ git diff
