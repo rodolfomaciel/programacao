@@ -2,12 +2,12 @@
 
 Operações Básicas Emacs
 
-- Novo arquivo - C-x C-f (nome_do_arquivo)
-- Abrir arquivo - C-x C-f
+- Novo buffer (arquivo) - C-x C-f (nome_do_arquivo)
+- Abrir buffer (arquivo) - C-x C-f
 - Salvar arquivo - C-x C-fs
 - Salvar como - C-x C-w
 - Salvar tudo - C-x s
-- Fechar arquivo - 
+- Fechar buffer (arquivo) - C-x k
 - Sair do Emacs - C-x C-c
 
 - Nova janela
