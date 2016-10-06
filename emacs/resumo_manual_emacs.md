@@ -1,17 +1,21 @@
 #Resumo Manual Emacs
 
+Conceitos Básicos
+- Frame - uma janela
+- Window - divisória dentro do frame
+- Buffer - arquivo em edição
+
 Operações Básicas Emacs
 
-- Novo buffer (arquivo) - C-x C-f (nome_do_arquivo)
-- Abrir buffer (arquivo) - C-x C-f
+- Abrir e Novo buffer (arquivo) - C-x C-f (nome_do_arquivo)
 - Salvar arquivo - C-x C-fs
 - Salvar como - C-x C-w
 - Salvar tudo - C-x s
 - Fechar buffer (arquivo) - C-x k
 - Sair do Emacs - C-x C-c
 
-- Nova janela
-- Fechar janela
+- Nova janela - C-x 5 2
+- Fechar janela - 
 - Selecionar janela - C-x b, C-x LEFT, C-x RIGHT
 - Novo frame
 - Deletar frame
