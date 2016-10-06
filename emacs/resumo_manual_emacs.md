@@ -7,16 +7,19 @@ Conceitos Básicos
 
 Operações Básicas Emacs
 
-- Abrir e Novo buffer (arquivo) - C-x C-f (nome_do_arquivo)
-- Salvar arquivo - C-x C-fs
+- Abrir e Novo arquivo (buffer) - C-x C-f (nome_do_arquivo)
+- Selecionar arquivo (buffer) - C-x b, C-x LEFT, C-x RIGHT
+- Salvar arquivo (buffer) - C-x C-fs
 - Salvar como - C-x C-w
 - Salvar tudo - C-x s
 - Fechar buffer (arquivo) - C-x k
 - Sair do Emacs - C-x C-c
 
-- Nova janela - C-x 5 2
-- Fechar janela - 
-- Selecionar janela - C-x b, C-x LEFT, C-x RIGHT
+- Nova divisória (window) - 
+
+- Nova janela (frame) - C-x 5 2
+- Fechar janela (frame) - C-x 5 0
+- Selecionar janela - 
 - Novo frame
 - Deletar frame
 - Imprimir buffer
