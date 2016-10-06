@@ -6,8 +6,8 @@ Operações Básicas Emacs
 - Abrir arquivo - C-x C-f
 - Salvar arquivo - C-x C-fs
 - Salvar como - C-x C-w
-- Salvar tudo
-- Fechar arquivo
+- Salvar tudo - C-x s
+- Fechar arquivo - C-x C-c
 
 - Nova janela
 - Fechar janela
@@ -16,17 +16,18 @@ Operações Básicas Emacs
 - Imprimir buffer
 - Imprimir regiao
 
-- Desfazer
+- Desfazer - C-/
 - Refazer
-- Copiar
-- Recortar
-- Colar
-- Limpar
+- Copiar - M-w
+- Recortar - C-w
+- Colar - C-y
+- Deletar linha - M-k
+- Deletar palavra seguinte - M-d
 
 - Selecionar palavra - 
 - Selecionar linha - 
-- Selecionar paragrafo -
-- Selecionar tudo - 
+- Selecionar paragrafo - M-h
+- Selecionar tudo - C-x h
 
 - Buscar
 - Substituir
