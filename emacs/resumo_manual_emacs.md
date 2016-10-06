@@ -3,8 +3,9 @@
 Operações Básicas Emacs
 
 - Novo arquivo
-- Abrir arquivo
-- Salvar arquivo
+- Abrir arquivo - C-x C-f
+- Salvar arquivo - C-x C-fs
+- Salvar como - C-x C-w
 - Salvar tudo
 - Fechar arquivo
 
