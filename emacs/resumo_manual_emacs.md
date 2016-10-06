@@ -15,7 +15,9 @@ Operações Básicas Emacs
 - Fechar buffer (arquivo) - C-x k
 - Sair do Emacs - C-x C-c
 
-- Nova divisória (window) - 
+- Nova divisória (window) - C-x 2, C-x 3
+- Selecionar outra divisória - C-x o
+- Fechar divisória - C-x 0, C-x 1, C-x 4 0 , C-x ^ , C-x } , C-x { , C-x - , C-x +
 
 - Nova janela (frame) - C-x 5 2
 - Fechar janela (frame) - C-x 5 0
