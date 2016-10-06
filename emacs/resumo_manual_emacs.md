@@ -11,7 +11,6 @@ Frames
 - Nova janela (frame) - C-x 5 2
 - Fechar janela (frame) - C-x 5 0
 - Minimizar janela - C-z
-
 - Sair do Emacs - C-x C-c
 
 Windows
@@ -28,6 +27,7 @@ Buffers
 - Salvar tudo - C-x s
 - Fechar buffer (arquivo) - C-x k
 
+Comandos de edição
 - Desfazer - C-/
 - Refazer - 
 - Copiar - M-w
