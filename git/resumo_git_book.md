@@ -119,4 +119,10 @@ Fluxo de trabalho com branchs
  
 Branchs remotos
 
+- Listando os branches no remoto - $ git remote show [remote]
+- Sincronizando os arquivos - $ git fetch origin
+- Compartilhando seu projeto num branch chamado serverfix - $ git push origin serverfix
+- Criando um upstream dum branch - $ git checkout --track origin/serverfix
+- Fazendo sincronização e fusão com remoto - $ git pull
+- Deletando um branch no servidor - $ git push origin --delete serverfix
 
