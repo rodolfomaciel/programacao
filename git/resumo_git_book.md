@@ -150,5 +150,7 @@ Protocolo SSH
 Git no seu servidor
 - Faça o clone do projeto na sua maquina - $ git clone --bare my_project my_project.git
 - Depois acesse seu servidor com SSH e especifique a pasta - $ scp -r my_project.git user@git.example.com:/srv/git
+- Clonando do seu servidor - $ git clone user@git.example.com:/srv/git/my_project.git
+
 
 
