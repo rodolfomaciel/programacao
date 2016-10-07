@@ -131,3 +131,24 @@ Branchs remotos
 Fazendo rebase
 - Mude para o branch que deseja fazer rebase - $ git checkout experiment
 - Indique qual branch deseja usar como base - $ git rebase master
+
+##Git no Servidor
+
+Um repositorio remoto serve para centralizar todo o código
+
+Usando remoto local
+- Adicione usando a notação de pastas locais - $ git remote add local_proj /opt/git/project.git
+- Clonando o repositorio - $ git clone /opt/git/project.git
+
+Protocolo HTTP
+- Clonando - $ git clone https://example.com/gitproject.git
+
+Protocolo SSH
+- Clonando - $ git clone ssh://user@server/project.git
+- Usando login - $ git clone user@server:project.git
+
+Git no seu servidor
+- Faça o clone do projeto na sua maquina - $ git clone --bare my_project my_project.git
+- Depois acesse seu servidor com SSH e especifique a pasta - $ scp -r my_project.git user@git.example.com:/srv/git
+
+
