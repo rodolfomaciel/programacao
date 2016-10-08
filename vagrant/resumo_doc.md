@@ -68,3 +68,6 @@ Você também pode configurar uma porta de servidor para acessar através do bro
     
 Lembrando que guest é a maquina virtual e host é a sua maquina
 
+Você pode compartilhar sua maquina virtual com o mundo usando os comandos
+- $ vagrant login
+- $ vagrant share
