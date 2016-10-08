@@ -18,9 +18,7 @@ Você pode encontrar diversas imagens de sistemas diferentes em https://atlas.ha
 
 Edite o arquivo Vagrantfile e adicione a box escolhida
 
-'''javascript
-Vagrant.configure("2") do |config|
-    config.vm.box = "hashicorp/precise64"
-end
-'''
+    Vagrant.configure("2") do |config|
+        config.vm.box = "hashicorp/precise64"
+    end
 
