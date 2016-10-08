@@ -36,3 +36,35 @@ Você pode também encerrar a máquina virtual com
 
 Para eliminar o arquivo baixado da box faça:
 - $ vagrant box remove
+
+O diretorio /vagrant na sua maquina virtual é compartilhada com sua máquina host.
+
+Para fazer a instalação automática de aplicativos extras você pode usar o provisionamento.
+Crie um arquivo shell script e coloque o código com os comandos:
+
+    #!/usr/bin/env bash
+    
+    apt-get update 
+    apt-get install -y apache2
+    if ! [ -L /var/www ]; then
+        rm -rf /var/www
+        ln -fs /vagrant /var/www
+    fi
+
+Em seguida configure o seu Vagrantfile para executar o shell script
+
+    Vagrant.configure("2") do |config|
+        config.vm.box = "hashicorp/precise64"
+        config.vm.provision :shell, path: "bootstrap.sh"
+    end
+
+Você também pode configurar uma porta de servidor para acessar através do browser
+
+    Vagrant.configure("2") do |config|
+        config.vm.box = "hashicorp/precise64"
+        config.vm.provision :shell, path: "bootstrap.sh"
+        config.vm.network :forwarded_port, guest: 80, host: 4567
+    end
+    
+Lembrando que guest é a maquina virtual e host é a sua maquina
+
