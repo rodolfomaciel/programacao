@@ -71,3 +71,8 @@ Lembrando que guest é a maquina virtual e host é a sua maquina
 Você pode compartilhar sua maquina virtual com o mundo usando os comandos
 - $ vagrant login
 - $ vagrant share
+
+Você também pode eliminar a máquina virtual, suspender ou desligar com os comandos
+- $ vagrant destroy
+- $ vagrant suspend
+- $ vagrant halt
