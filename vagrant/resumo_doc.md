@@ -76,3 +76,7 @@ Você também pode eliminar a máquina virtual, suspender ou desligar com os com
 - $ vagrant destroy
 - $ vagrant suspend
 - $ vagrant halt
+
+Pode-se usar o vagrant com provedores de servicos web
+- $ vagrant up --provider=vmware_fusion
+- $ vagrant up --provider=aws
