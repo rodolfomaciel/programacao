@@ -2,6 +2,7 @@
 
 ##Passos Básicos em Vagrant
 
+###Iniciando uma vm
 Iniciando uma máquina virtual
 - $ vagrant init hashicorp/precise64
 - $ vagrant up
@@ -11,6 +12,7 @@ Configurando projeto
 - $ cd vagrant_getting_started
 - $ vagrant init
 
+###Box
 Instale uma box(imagem base de um sistema)
 - $ vagrant box add hashicorp/precise64
 
@@ -24,6 +26,7 @@ Edite o arquivo Vagrantfile e adicione a box escolhida ou indique a url
         config.vm.box_url = "http://files.vagrantup.com/precise64.box"
     end
 
+###Acessando a vm
 Inicie e acesse a sua máquina virtual com esses dois comandos
 - $ vagrant up
 - $ vagrant ssh
@@ -37,8 +40,10 @@ Você pode também encerrar a máquina virtual com
 Para eliminar o arquivo baixado da box faça:
 - $ vagrant box remove
 
+###Diretório compartilhado
 O diretorio /vagrant na sua maquina virtual é compartilhada com sua máquina host.
 
+###Provisionamento
 Para fazer a instalação automática de aplicativos extras você pode usar o provisionamento.
 Crie um arquivo shell script e coloque o código com os comandos:
 
@@ -58,6 +63,7 @@ Em seguida configure o seu Vagrantfile para executar o shell script
         config.vm.provision :shell, path: "bootstrap.sh"
     end
 
+###Portas de rede
 Você também pode configurar uma porta de servidor para acessar através do browser
 
     Vagrant.configure("2") do |config|
@@ -68,15 +74,18 @@ Você também pode configurar uma porta de servidor para acessar através do bro
     
 Lembrando que guest é a maquina virtual e host é a sua maquina
 
+###Compartilhando a configuração da vm
 Você pode compartilhar sua maquina virtual com o mundo usando os comandos
 - $ vagrant login
 - $ vagrant share
 
+###Desmontando a vm
 Você também pode eliminar a máquina virtual, suspender ou desligar com os comandos
 - $ vagrant destroy
 - $ vagrant suspend
 - $ vagrant halt
 
+###Provedores web
 Pode-se usar o vagrant com provedores de servicos web
 - $ vagrant up --provider=vmware_fusion
 - $ vagrant up --provider=aws
