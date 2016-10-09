@@ -31,3 +31,6 @@ Outros comandos úteis:
 - $ yo --help Acesse a tela de ajuda completo
 - $ yo --generators Listar todos os geradores instalados
 - $ yo --version Obter a versão
+
+Solucionando os problemas com yeoman]
+- $ yo doctor
