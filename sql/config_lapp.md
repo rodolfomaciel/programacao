@@ -76,8 +76,9 @@ CRie o arquivo wsgi
     sys.path.insert(0,"/var/www/catalog/catalog/venv")
 
     from catalog import app as application
-    
 
+Reinicie o apache
+$ sudo service apache2 restart
 
 
 
