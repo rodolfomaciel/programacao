@@ -1,7 +1,7 @@
 #Resumo Doc Postgre
 
 ##Operações Básicas
-- Instalação
+- Instalação - $ apt-get install postgresql-9.6 - ou então:
  - ./configure
  - make
  - su
