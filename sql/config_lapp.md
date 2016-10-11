@@ -64,7 +64,7 @@ Crie um virtual host
 Ative o virtual host
 - $ sudo a2ensite catalog
 
-CRie o arquivo wsgi
+Crie o arquivo wsgi
 - $ cd /var/www/catalog
 - $ sudo vim catalog.wsgi
 
@@ -77,8 +77,9 @@ CRie o arquivo wsgi
 
     from catalog import app as application
 
+
 Reinicie o apache
-$ sudo service apache2 restart
+- $ sudo service apache2 restart
 
 
 
