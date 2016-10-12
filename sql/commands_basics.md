@@ -56,6 +56,10 @@ create table ordernames (
        
 create table tablename (column1 type [constraints], column1 type [constraints], ..., columnN type [constraints]);
 
+create table students(id serial primary key, name text);
+create table courses(id text primary key, name text);
+create table grades(student integer references students(id), course text references courses(id), grade text);
+
 ###Relacionamentos
 create table sales(id text references products(id), sales_date date, count integer);
        
