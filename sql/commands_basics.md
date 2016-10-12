@@ -54,7 +54,10 @@ create table ordernames (
        t_order text,
        name text);
        
-create table tablename (column1 type [constraints], column1 type [constraints], ..., columnN type [constraints]); 
+create table tablename (column1 type [constraints], column1 type [constraints], ..., columnN type [constraints]);
+
+###Relacionamentos
+create table sales(id text references products(id), sales_date date, count integer);
        
        
 ##Como usar join
