@@ -54,6 +54,8 @@ create table ordernames (
        t_order text,
        name text);
        
+create table tablename (column1 type [constraints], column1 type [constraints], ..., columnN type [constraints]); 
+       
        
 ##Como usar join
 
