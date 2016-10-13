@@ -38,11 +38,19 @@ Comandos de edição
 - Deletar linha - M-k
 - Deletar palavra seguinte - M-d
 
+Movimentação
+- Para cima - C-p, M-v, M-<
+- Para baixo - C-h, C-v, M->
+- Para direita - C-f, C-e, M-f
+- Para esquerda - C-b, C-a, M-b
+
+Seleção/Região
 - Selecionar palavra - 
 - Selecionar linha - 
 - Selecionar paragrafo - M-h
 - Selecionar tudo - C-x h
 
+Busca/Substituição
 - Buscar
 - Substituir
 - Ir para
