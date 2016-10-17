@@ -23,9 +23,9 @@ Tipos de dados em Python
   - pow(x, y)
   - x ** y
 - Sequencias
- - list
- - tuple
- - range
+ - list - mutavel
+ - tuple - imutavel
+ - range - imutavel
  - Operacoes
   - x in s
   - x not in s
