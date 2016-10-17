@@ -1,0 +1,12 @@
+Atributos da lista
+- list.append(x)
+- list.extend(L)
+- list.insert(i, x)
+- list.remove(x)
+- list.pop([i])
+- list.clear()
+- list.index(x)
+- list.count(x)
+- list.sort(key=None, reverse=False)
+- list.reverse()
+- list.copy()
