@@ -1,4 +1,4 @@
-Coleções do tipo set não aceitam elementos duplicados
+Coleções do tipo set não aceitam elementos duplicados:
 
     >>> basket = {'apple', 'orange', 'apple', 'pear', 'orange', 'banana'}
     >>> print(basket)                      # show that duplicates have been removed
@@ -21,4 +21,10 @@ Coleções do tipo set não aceitam elementos duplicados
     {'a', 'c'}
     >>> a ^ b                              # letters in a or b but not both
     {'r', 'd', 'b', 'm', 'z', 'l'}
+    
+Set também aceita criação de lista:
+
+    >>> a = {x for x in 'abracadabra' if x not in 'abc'}
+    >>> a
+    {'r', 'd'}
     
