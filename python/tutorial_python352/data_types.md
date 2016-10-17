@@ -3,3 +3,22 @@ Tipos de dados em Python
  - True, False, None, 
  - Operadores - and, or, not
  - <, <=, >, >=, ==, !=, is, is not
+- Numéricos
+ - int, float, complex
+ - **Operações**
+  - x + y
+  - x - y 	  	 
+  - x * y 	 
+  - x / y   	 
+  - x // y 
+  - x % y 	 
+  - -x
+  - +x 	 
+  - abs(x)
+  - int(x)
+  - float(x)
+  - complex(re, im)
+  - c.conjugate()	 
+  - divmod(x, y)
+  - pow(x, y)
+  - x ** y
