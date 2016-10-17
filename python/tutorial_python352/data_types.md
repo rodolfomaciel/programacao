@@ -22,3 +22,20 @@ Tipos de dados em Python
   - divmod(x, y)
   - pow(x, y)
   - x ** y
+- Sequencias
+ - list
+ - tuple
+ - range
+ - Operacoes
+  - x in s
+  - x not in s
+  - s + t
+  - s * n
+  - s[i]
+  - s[i:j]
+  - s[i:j:k]
+  - len(s)
+  - min(s)
+  - max(s)
+  - s.index(x[, i[, j]])
+  - s.count(x)
