@@ -13,3 +13,10 @@ Tipos de dados
 - null
 - undefined
 
+Controle de fluxo de execução
+- if, else if, else
+- while, do, do while
+- for
+- switch, case, default
+- &&, ||, ?
+
