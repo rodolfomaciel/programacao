@@ -9,6 +9,8 @@ Operações Básicas
 - heroku logs --tail (para ver o que ocorre no app)
 - Procfile - arquivo que define os comandos no Heroku
 - heroku ps:scale web=1 (para escalar sua aplicação aumente o numero depois de web)
+- pip install -r requirements.txt (heroku exige o arquivo requirements.txt para sua app python)
+- heroku pg:psql (para acessar o postgresql no heroku)
 
 Ambientes de desenvolvimento
 - Desenvolvimento
