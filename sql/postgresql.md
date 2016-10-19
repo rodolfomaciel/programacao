@@ -21,11 +21,29 @@
 - Pedindo ajuda sobre um comando - $ mydb=> \h
 - Para **sair** o banco de dados - $ mydb=> \q
 
-Conceitos Básicos
+##Conceitos Básicos
 - Organização dos arquivos de dados
  - Grupos de bancos (Cluster)
   - Banco de dados (Database)
    - Tabelas (Table)
     - Rows (Linhas)
      - Columns (Colunas)
+     
+     
+##Tabelas
+- Criar tabelas.
+    CREATE TABLE weather (
+        city            varchar(80),
+        temp_lo         int,           -- low temperature
+        temp_hi         int,           -- high temperature
+        prcp            real,          -- precipitation
+        date            date
+    );
 
+- Deletar tabela:
+    DROP TABLE tablename;
+    
+- Inserindo dados:
+    INSERT INTO weather VALUES ('San Francisco', 46, 50, 0.25, '1994-11-27');
+
+    
