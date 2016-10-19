@@ -83,6 +83,40 @@ SELECT weather.city, weather.temp_lo, weather.temp_hi,
        weather.prcp, weather.date, cities.location
     FROM weather, cities
     WHERE cities.name = weather.city;
+    
+- Funções de agregação
+
+SELECT max(temp_lo) FROM weather;
+
+SELECT city FROM weather
+    WHERE temp_lo = (SELECT max(temp_lo) FROM weather);
+    
+SELECT city, max(temp_lo)
+    FROM weather
+    GROUP BY city;
+    
+SELECT city, max(temp_lo)
+    FROM weather
+    GROUP BY city
+    HAVING max(temp_lo) < 40;
+    
+SELECT city, max(temp_lo)
+    FROM weather
+    WHERE city LIKE 'S%'(1)
+    GROUP BY city
+    HAVING max(temp_lo) < 40;
+    
+- Atualizações
+
+UPDATE weather
+    SET temp_hi = temp_hi - 2,  temp_lo = temp_lo - 2
+    WHERE date > '1994-11-28';
+    
+- Deletando
+
+DELETE FROM weather WHERE city = 'Hayward';
+
+DELETE FROM tablename; -- deleta todas as linhas da tabela
 
 
     
