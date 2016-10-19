@@ -6,6 +6,9 @@ Operações Básicas
 - git push heroku master
 - heroku ps:scale web=1 (caso seja app python) 
 - heroku open
+- heroku logs --tail (para ver o que ocorre no app)
+- Procfile - arquivo que define os comandos no Heroku
+- heroku ps:scale web=1 (para escalar sua aplicação aumente o numero depois de web)
 
 Ambientes de desenvolvimento
 - Desenvolvimento
