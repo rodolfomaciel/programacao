@@ -21,3 +21,11 @@
 - Pedindo ajuda sobre um comando - $ mydb=> \h
 - Para **sair** o banco de dados - $ mydb=> \q
 
+Conceitos Básicos
+- Organização dos arquivos de dados
+ - Grupos de bancos (Cluster)
+  - Banco de dados (Database)
+   - Tabelas (Table)
+    - Rows (Linhas)
+     - Columns (Colunas)
+
