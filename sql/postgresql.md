@@ -20,5 +20,4 @@
 - **Acessando** o banco de dados - $ psql mydb
 - Pedindo ajuda sobre um comando - $ mydb=> \h
 - Para **sair** o banco de dados - $ mydb=> \q
-- 
 
