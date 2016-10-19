@@ -4,3 +4,10 @@ Operações Básicas
 - heroku create
 - git push heroku master
 - heroku open
+
+Ambientes de desenvolvimento
+- Desenvolvimento
+- Teste
+- Produção
+
+
