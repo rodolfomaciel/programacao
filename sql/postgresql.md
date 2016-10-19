@@ -41,9 +41,9 @@
     );
 
 - Deletar tabela:
-    DROP TABLE tablename;
+DROP TABLE tablename;
     
 - Inserindo dados:
-    INSERT INTO weather VALUES ('San Francisco', 46, 50, 0.25, '1994-11-27');
+INSERT INTO weather VALUES ('San Francisco', 46, 50, 0.25, '1994-11-27');
 
     
