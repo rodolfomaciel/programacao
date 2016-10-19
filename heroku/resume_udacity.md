@@ -1,4 +1,5 @@
 Operações Básicas
+- Todas as dependencias do app precisam de instalação local
 - heroku login
 - git clone
 - cd caminho_da_pasta_clonada
