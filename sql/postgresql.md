@@ -50,9 +50,13 @@ INSERT INTO weather VALUES ('San Francisco', 46, 50, 0.25, '1994-11-27');
 COPY weather FROM '/home/user/weather.txt';
 
 - Selecionar dados da tabela:
+
 SELECT * FROM weather;
+
 SELECT city, temp_lo, temp_hi, prcp, date FROM weather;
+
 SELECT city, (temp_hi+temp_lo)/2 AS temp_avg, date FROM weather;
+
 SELECT * FROM weather
     WHERE city = 'San Francisco' AND prcp > 0.0;
 
@@ -68,4 +72,10 @@ SELECT DISTINCT city
 SELECT DISTINCT city
     FROM weather
     ORDER BY city;
+    
+- Junção de dados e tabelas:
+
+SELECT *
+    FROM weather, cities
+    WHERE city = name;
     
