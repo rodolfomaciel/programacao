@@ -1,3 +1,4 @@
+# documentação http://flask.pocoo.org/docs/0.11/config/
 # Statement for enabling the development environment
 DEBUG = True
 
