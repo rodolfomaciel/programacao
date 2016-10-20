@@ -1,3 +1,4 @@
+# documentacao https://github.com/pallets/flask/wiki/Large-app-how-to e http://flask.pocoo.org/docs/0.11/patterns/packages/
 # Import flask and template operators
 from flask import Flask, render_template
 
