@@ -1,4 +1,4 @@
-# documentacao http://flask.pocoo.org/docs/0.11/patterns/distribute/
+# documentacao http://flask.pocoo.org/docs/0.11/patterns/distribute/ e http://flask.pocoo.org/docs/dev/tutorial/setuptools/
 from setuptools import setup
 
 setup(
