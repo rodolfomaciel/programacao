@@ -58,12 +58,13 @@ Estrutura básica de aplicacação flask
                     # app = Flask(__name__)
                     # import application.views
                     #applicaction.py - aqui vao os controladores da app
-            |__/module_one
+            |__/mod_auth
                 |-- __init__.py
                 |-- controllers.py
                 |-- models.py
+                |-- forms.py
             |__/templates
-                |__/module_one
+                |__/mod_auth
                     |-- hello.html
                     |--layout.html
                     |--index.html
