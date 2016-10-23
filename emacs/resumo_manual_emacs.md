@@ -28,6 +28,7 @@ Buffers
 - Salvar como - C-x C-w
 - Salvar tudo - C-x s
 - Fechar buffer (arquivo) - C-x k
+- Rodar um arquivo como script - C-c C-c
 
 Comandos de edição
 - Desfazer - C-/
