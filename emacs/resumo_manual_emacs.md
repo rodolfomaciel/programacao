@@ -41,7 +41,7 @@ Comandos de edição
 
 Movimentação
 - Para cima - C-p, M-v, M-<
-- Para baixo - C-h, C-v, M->
+- Para baixo - C-n, C-v, M->
 - Para direita - C-f, C-e, M-f
 - Para esquerda - C-b, C-a, M-b
 
