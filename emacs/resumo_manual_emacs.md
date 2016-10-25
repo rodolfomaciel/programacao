@@ -31,13 +31,16 @@ Buffers
 - Rodar um arquivo como script - C-c C-c
 
 Comandos de edição
-- Desfazer - C-/
+- Desfazer - C-/, C-x u, C-_
 - Refazer - 
 - Copiar - M-w
 - Recortar - C-w
 - Colar - C-y
-- Deletar linha - M-k
-- Deletar palavra seguinte - M-d
+- Deletar caractere seguinte - C-d
+- Deletar linha - C-k, M-k
+- Deletar palavra seguinte e anterior - M-d, M-DEL
+- Linha em branco - C-o
+- Desfazer linha em branco - C-x C-o
 
 Movimentação
 - Para cima - C-p, M-v, M-<
