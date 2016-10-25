@@ -4,7 +4,9 @@ Conceitos Básicos
 - Frame - uma janela
 - Window - divisória dentro do frame
 - Buffer - arquivo em edição
+- Mark - ponto inicial de uma região
 - Point - local do buffer onde está ocorrendo a edição
+- Region - trecho entre Mark e Point
 - Mode line - é a última linha do buffer que mostra informações
 
 Operações Básicas Emacs
