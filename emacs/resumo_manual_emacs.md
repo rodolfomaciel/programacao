@@ -32,7 +32,7 @@ Buffers
 
 Comandos de edição
 - Desfazer - C-/, C-x u, C-_
-- Refazer - 
+- Repetir comando - C-x z 
 - Copiar - M-w
 - Recortar - C-w
 - Colar - C-y
