@@ -56,7 +56,8 @@ Movimentação
 - Para esquerda - C-b, C-a, M-b
 
 Seleção/Região
-- Selecionar palavra - 
+- Marcar ponto inicial - C-SPC, C-@
+- Selecionar do ponto ao fim do paragrafo - C-x C-x
 - Selecionar linha - 
 - Selecionar paragrafo - M-h
 - Selecionar tudo - C-x h
