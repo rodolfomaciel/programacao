@@ -30,6 +30,11 @@ Buffers
 - Fechar buffer (arquivo) - C-x k
 - Rodar um arquivo como script - C-c C-c
 
+Mini-buffer
+- Cancelar comando - C-g
+- Completar comando - aperte TAB
+
+
 Comandos de edição
 - Desfazer - C-/, C-x u, C-_
 - Repetir comando - C-x z 
