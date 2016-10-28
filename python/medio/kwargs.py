@@ -9,3 +9,13 @@ def sum(*arg):
     for i in arg:
         r+=i
     return r
+
+"""
+Descompactando listas, tuplas e dicionarios
+"""
+def show(*arg):
+    for i in arg:
+        print("Item: ", i)
+
+b=[1,2,3]
+show(*b)
