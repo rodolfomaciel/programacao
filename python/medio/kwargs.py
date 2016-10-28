@@ -19,3 +19,10 @@ def show(*arg):
 
 b=[1,2,3]
 show(*b)
+
+def show(**kwargs):
+    for j,k in kwargs:
+        print(j, k)
+        
+c = {'Nome':'Francisca','Idade':'61'}
+show(**c)
