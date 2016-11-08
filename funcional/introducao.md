@@ -1,6 +1,6 @@
 ###Funcoes puras
 
-Funcoes que retornam um valor puro
+Funcoes que retornam um valor puro. Exemplo em js:
 
     function add(x,y){return x + y;} //retorna a soma de x e y
     
@@ -22,7 +22,13 @@ elas so conseguem confina-las.
 
 Não existem variaveis na programação funcional, apenas constantes.
 
-A recursao substitui o looping na programação funcional.
+A recursao substitui o looping na programação funcional. Exemplo em elm:
+
+    sumRange start end acc =
+    if start > end then
+        acc
+    else
+        sumRange (start + 1) end (acc + start) 
 
 Se um pedaço do programa quiser mudar um valor ele terá de
 criar outro valor modificando o antigo.
