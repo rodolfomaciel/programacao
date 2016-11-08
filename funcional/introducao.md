@@ -22,6 +22,13 @@ elas so conseguem confina-las.
 
 Não existem variaveis na programação funcional, apenas constantes.
 
+A recursao substitui o looping na programação funcional.
+
+Se um pedaço do programa quiser mudar um valor ele terá de
+criar outro valor modificando o antigo.
+
+    a = 1
+    b = a + 1 //2
 
 
 
