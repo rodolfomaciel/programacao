@@ -1,4 +1,4 @@
-###Funcoes puras
+###Funções puras
 
 Funcoes que retornam um valor puro. Exemplo em js:
 
@@ -10,7 +10,7 @@ As funcoes puras devem receber pelo menos um parametro e retornar um valor
 Para valores de parametros iguais a funcao pura sempre retorna o mesmo resultado
 Elas não tem nenhum efeito colateral
 
-###Funcoes impuras
+###Funções impuras
 
 São as que lidam com variaveis externas e modificam valores, como por exemplo,
 alterar um arquivo, atualizar um banco de dados, enviar dados a um servidor e etc.
@@ -36,6 +36,31 @@ criar outro valor modificando o antigo.
     a = 1
     b = a + 1 //2
 
+###Refatorar
 
+As duas funções a seguir podem ser refatoradas e simplificadas:
+
+    function validateSsn(ssn) {
+    if (/^\d{3}-\d{2}-\d{4}$/.exec(ssn))
+        console.log('Valid SSN');
+    else
+        console.log('Invalid SSN');
+    }
+
+    function validatePhone(phone) {
+        if (/^\(\d{3}\)\d{3}-\d{4}$/.exec(phone))
+            console.log('Valid Phone Number');
+        else
+            console.log('Invalid Phone Number');
+    }
+    
+Elas poderiam ser 'unificadas' na seguinte função:
+
+    function validateValue(value, regex, type) {
+    if (regex.exec(value))
+        console.log('Invalid ' + type);
+    else
+        console.log('Valid ' + type);
+    }
 
 
