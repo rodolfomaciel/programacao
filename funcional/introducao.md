@@ -15,4 +15,14 @@ Elas não tem nenhum efeito colateral
 São as que lidam com variaveis externas e modificam valores, como por exemplo,
 alterar um arquivo, atualizar um banco de dados, enviar dados a um servidor e etc.
 
+Linguagens funcionais não conseguem eliminar efeitos colaterais
+elas so conseguem confina-las.
+
+###Imutabilidade
+
+Não existem variaveis na programação funcional, apenas constantes.
+
+
+
+
 
