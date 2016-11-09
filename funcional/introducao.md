@@ -63,4 +63,17 @@ Elas poderiam ser 'unificadas' na seguinte função:
         console.log('Valid ' + type);
     }
 
+###Função de ordem superior
 
+É aquela que recebe uma função como argumento e/ou retorna uma função como resultado.
+
+    function makeRegexParser(regex) {
+        return regex.exec;
+    }
+
+###Closure
+
+São funções aninhadas ou aprisionadas dentro de outras funções.
+
+
+    
