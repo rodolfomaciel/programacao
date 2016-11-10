@@ -75,5 +75,50 @@ Elas poderiam ser 'unificadas' na seguinte função:
 
 São funções aninhadas ou aprisionadas dentro de outras funções.
 
+    function grandParent(g1, g2) {
+        var g3 = 3;
+        return function parent(p1, p2) {
+            var p3 = 33;
+            return function child(c1, c2) {
+                var c3 = 333;
+                return g1 + g2 + g3 + p1 + p2 + p3 + c1 + c2 + c3;
+            };
+        };
+    }
+    
+    
+###Composição
+
+Usar várias funções para realizar uma tarefa.
+
+    var add10 = value => value + 10;
+    var mult5 = value => value * 5;
+    var mult5AfterAdd10 = value => 5 * (value + 10)
+    
+###Currying
+
+Funções encadeadas que recebem apenas um parâmetro
+
+    var compose = (f, g) => x => f(g(x));
+    var mult5AfterAdd10 = compose(mult5, add(10));
+    
+###Funções padrões
+
+Map, filter, reduce.
+
+###Transparencia referencial
+
+Trocar a função pelo código bruto.
+
+###Ordem de execução
+
+Execução única, execução paralela.
+
+###Notação de tipos de dados
+
+    add : Int -> Int -> Int
+    add x y =
+         x + y
+
 
     
