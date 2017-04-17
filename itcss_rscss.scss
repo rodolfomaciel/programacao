@@ -1,0 +1,105 @@
+/* arquitetura css */
+
+/* Settings 
+		tamanho da fonte, paleta de cores, release, espaçamentos, variaveis globais
+*/
+$color-ui: #BADA55;
+$spacing-unit: 10px;
+
+/* Tools 
+		mixins e funções globais
+*/
+@mixin font-brand() {
+    fotn-family: "UI font", sans-serif;
+    font-weigth: 400;
+}
+
+/* Generic 
+		reset, normatizadores, definições de boxing e outros
+*/
+* {
+    box-sizing: border-box;
+}
+
+/* Base 
+		Estilos para tags html
+*/
+ul {
+    list-style: square outside;
+}
+
+/* Objects/Layouts 
+		Padrões de interfaces como listas, paineis, botoes, etc
+*/
+.base-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    > .item {
+        padding: $spacing-unit;
+    }
+}
+
+/* Components
+		
+*/
+.products-list {
+    @extend font-brand();
+    border-top: 1px solid $color-ui;
+
+    > .item {
+        border-bottom: 1px solid $color-ui;
+    }
+}
+.search-form {}
+.like-button{}
+.article-card{}
+
+/* variações */
+.like-button {
+  &.-wide { /* ... */ }
+  &.-short { /* ... */ }
+  &.-disabled { /* ... */ }
+}
+
+/* simplificando componentes internos */
+
+.search-form {
+  > .submit {
+    @extend .search-button;
+    @extend .search-button.-red;
+    @extend .search-button.-large;
+  }
+}
+
+/* Elements 
+		partes de um component
+*/
+.search-form {
+    > .field {...}
+    > .action {...}
+}
+
+.profile-box {
+  > .firstname { /* ... */ }
+  > .lastname { /* ... */ }
+  > .avatar { /* ... */ }
+}
+
+.shopping-card {
+  > .title { /* ... */ }
+  > .title.-small { /* ... */ }
+}
+
+/* Trumps/Helpers 
+		estilo que se sobrepoe a todos os outros
+*/
+.hidden {
+    display: none !important;
+}
+
+._unmargin { margin: 0 !important; }
+._center { text-align: center !important; }
+._pull-left { float: left !important; }
+._pull-right { float: right !important; }
